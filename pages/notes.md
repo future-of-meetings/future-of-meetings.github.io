@@ -22,4 +22,7 @@ title: Notes
 
   * [https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3454430](Knowledge Seeking and Anonymity in Digital Work Settings)
 
+# Miscellaneous links
+
+  * [SmartMetals Mounting Solutions](https://smartmetals.eu/home)
 
