@@ -3,8 +3,17 @@ permalink: /sitemap.html
 layout: default
 title: Sitemap
 ---
-<h3>HSF-India Website Sitemap</h3>
+<h3>Future of Meetings Website Sitemap</h3>
 
+
+<ul>
+{% assign sorted = site.pages | sort_natural: 'title' %}
+{% for mypage in sorted %}
+  <li><a href="{{mypage.permalink}}">{{ mypage.title }}</a></li>
+{% endfor %}
+</ul>
+
+<!--
 {% comment %}
 Go through the list of pages and create an index of them, separating by
 different page categories (using our custom frontmatter tag "pagetype").
@@ -72,4 +81,6 @@ different page categories (using our custom frontmatter tag "pagetype").
   <li><a href="{{post.url}}">{{ post.name }}</a></li>
 {% endfor %}
 </ul>
+
+-->
 
