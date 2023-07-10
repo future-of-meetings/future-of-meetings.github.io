@@ -6,7 +6,7 @@ title: Future of Meetings Collaborators
 
 {% assign team = site.collaborators %}
 
-<h1>"uture of Meetings Project Collaborators</h1><br>
+<h1>Future of Meetings Project Collaborators</h1><br>
 
 <div class="container-fluid">
   <div class="row">
