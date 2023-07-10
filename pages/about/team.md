@@ -11,6 +11,7 @@ title: Future of Meetings Collaborators
     {% for collaborator in site.collaborators %}
        {% if collaborator.active and collaborator.hidden != true %}
          {% include standard_person_card.md person=collaborator %}
+       {{ collaborator.name }}
        {% endif %}
     {% endfor %}
   </div>
